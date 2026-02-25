@@ -14,14 +14,14 @@
 // say("saraa", 10, 30);
 
 //
-function student(name, score) {
-  if (score >= 90) {
-    return name + " A";
-  } else if (score >= 80) {
-    return name + " B";
-  } else {
-    return name + " C";
-  }
+function module(num) {
+  console.log("module ruu orloo:", num);
+  return num * 2;
 }
 
-console.log(student("Dorj", 85));
+function student(a) {
+  console.log("student ruu orloo:", a);
+  return module(a + 10);
+}
+let result = student(10);
+console.log("result :>> ", result);
