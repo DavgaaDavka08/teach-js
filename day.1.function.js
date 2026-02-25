@@ -14,14 +14,33 @@
 // say("saraa", 10, 30);
 
 //
-function module(num) {
-  console.log("module ruu orloo:", num);
-  return num * 2;
-}
+// function module(num) {
+//   console.log("module ruu orloo:", num);
+//   return num * 2;
+// }
 
-function student(a) {
-  console.log("student ruu orloo:", a);
-  return module(a + 10);
+// function student(a) {
+//   console.log("student ruu orloo:", a);
+//   return module(a + 10);
+// }
+// let result = student(10);
+// console.log("result :>> ", result);
+
+// function student(a) {
+//   console.log("student ruu orloo:", a);
+//   return module(a + 10);
+// }
+// let result = student(10);
+// console.log("result :>> ", result);
+
+// function hello(a) {
+//   return a;
+// }
+// let result = hello("hello world");
+// console.log(result);
+
+function student(a, b) {
+  return a + b;
 }
-let result = student(10);
+let result = student(10, 50);
 console.log("result :>> ", result);
