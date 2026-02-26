@@ -61,12 +61,6 @@
 // console.log("result :>> ", result);
 //
 //
-//heseg buleg davtagddg code iig copy past hiigeed heretei gazraa ashiglaad yvdag
-//javascript function zarchim code maintance olon code iig baga bichih
-//DRY - dont repead yourself -bitgii code davtaj bich
-//() dotor function prametter buyu damjulah ogogdol bichne
-//JavaScript-д функц нь тодорхой нэгэн үүрэг гүйцэтгэх кодын
-//бүлэг бөгөөд дахин ашиглах боломжийг олгодог.
 
 // function isEven(num) {
 //   if (num % 2 == 0) {
@@ -79,30 +73,23 @@
 // let result = isEven(-50);
 // console.log("result :>> ", result);
 
-// function Hello() {
-//   console.log("hello worl");
-// }
+//javascript function zarchim code maintance olon code iig baga bichih
+//DRY - dont repead yourself -bitgii code davtaj bich
+//() dotor function prametter buyu damjulah ogogdol bichne
+//JavaScript-д функц нь тодорхой нэгэн үүрэг гүйцэтгэх кодын
+//бүлэг бөгөөд дахин ашиглах боломжийг олгодог.
 
-// Hello();
-
-//
-
-// function Student(age, name, score) {
-//   console.log("age :>> ", age);
+// function students(name, age, score) {
 //   console.log("name :>> ", name);
+//   console.log("age :>> ", age);
 //   console.log("score :>> ", score);
 // }
-// Student("davgaa", 10, 10);
 
-// function Student(a, b, c) {
-//   console.log("a :>> ", a);
-//   console.log("b :>> ", b);
-//   console.log("c :>> ", c);
+// students("davgaa", 10, 40);
+// students("davgaa", 10, 40);
+
+// function students(name, age, score) {
+//   return { name, age, score };
 // }
-// Student(10, 1, 1);
-
-let name = "bat";
-let age = 20;
-let score = 60;
-
-function student() {}
+// let result = students("davgaa", 10, 40);
+// console.log("result :>> ", result);
