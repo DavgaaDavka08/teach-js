@@ -78,30 +78,44 @@
 // let avarages = student.grade();
 // console.log("avarages :>> ", avarages);
 
-let students = {
-  name: "bat",
-  math: 90,
-  physics: 80,
-  english: 10,
-  avg: function () {
-    return (this.math + this.physics + this.english) / 3;
-  },
-  grade: function () {
-    let avarage = students.avg();
-    if (avarage >= 90) {
-      return "A";
-    } else if (avarage >= 80) {
-      return "B";
-    } else if (avarage >= 70) {
-      return "c";
-    } else if (avarage >= 60) {
-      return "D";
-    } else {
-      return "f";
-    }
-  },
-};
+// let students = {
+//   name: "bat",
+//   math: 90,
+//   physics: 80,
+//   english: 10,
+//   avg: function () {
+//     return (this.math + this.physics + this.english) / 3;
+//   },
+//   grade: function () {
+//     let avarage = students.avg();
+//     if (avarage >= 90) {
+//       return "A";
+//     } else if (avarage >= 80) {
+//       return "B";
+//     } else if (avarage >= 70) {
+//       return "c";
+//     } else if (avarage >= 60) {
+//       return "D";
+//     } else {
+//       return "f";
+//     }
+//   },
+// };
 
-console.log("students :>> ", students.name);
-console.log("avg :>> ", students.avg());
-console.log("grade :>> ", students.grade());
+// console.log("students :>> ", students.name);
+// console.log("avg :>> ", students.avg());
+// console.log("grade :>> ", students.grade());
+
+let name = "davgaa"; /// primitive ogodliin torol
+console.log(name);
+
+///object ogogdliin turul
+let car = {
+  img: "https://www.unegui.mn/adv/10163371_toyota-busad-2017-2026/",
+  une: 42,
+  category: "Toyota - Бусад категорийн зарууд",
+  km: 170000,
+  mtAt: "AT",
+  hodolguur: 2.0,
+};
+console.log("student :>> ", car);
